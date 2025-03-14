@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Hotel website</title>
+</head>
+<body>
+    <!-- ============header start================ -->
+     <header id="header">
+        <div class="container">
+            <div class="header_content">
+                <nav class="nav">
+                    <ul class="sidebar">
+                        <li onclick="closeSidebar()"><a href="#"><img src="img/close.svg" alt="logo" id="close_logo"></a></li>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">NewsLetter</a></li>
+                        <li><a href="#">Rooms</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">pricing</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><img src="img/main_logo.png" alt="logo" id="main_logo"></a></li>
+                        <li class="hideOnMobile"><a href="#" class="active">Home</a></li>
+                        <li class="hideOnMobile"><a href="#">About</a></li>
+                        <li class="hideOnMobile"><a href="#">NewsLetter</a></li>
+                        <li class="hideOnMobile"><a href="#">Rooms</a></li>
+                        <li class="hideOnMobile"><a href="#">Service</a></li>
+                        <li class="hideOnMobile"><a href="#">pricing</a></li>
+                        <li onclick="showSidebar()" id="menu"><a href="#"><img src="img/menu.svg" alt="menu" ></a></li>
+                    </ul>
+                </nav>
+                <div class="header_content_text">
+                    <h1>Discover Extraordinary <br>
+                        Comfort in Hotels</h1>
+                </div>
+                <div class="dot_img">
+                    <img src="img/Slide dot.png" alt="dot">
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- ============header end================ -->
+
+    <!-- ==========book room start======== -->
+     <section id="book_room">
+        <div class="container">
+            <div class="book_room_content">
+                <div class="book_room_content_header">
+                    <h2>Book a Room</h2>
+                    <p>Discover the perfect space for you!</p>
+                </div>
+                <div class="book_room_content_form">
+                    <div class="book_room_content_form_date">
+                        <h3>Date</h3>
+                        <span><img src="img/Frame 1.png" alt="img"></span>
+                    </div>
+                    <div class="book_room_content_form_person">
+                        <h3>Person</h3>
+                        <div class="book_room_content_form_person_img">
+                            <img src="img/Frame 2.png" alt="img">
+                            <img src="img/Frame 3.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="book_room_content_form_btn">
+                        <button>Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </section>
+    <!-- ==========book room end======== -->
+
+    <!-- ===========gallery start========= -->
+        <section id="gallery">
+            <div class="container">
+                    <div class="gallery_grid_container">
+                        <div class="gallery_grid_item2">
+                            <div class="img">
+                                <img src="img/Room.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="gallery_grid_item1">
+                            <div class="img">
+                                <img src="img/Dining.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="gallery_grid_item1">
+                            <div class="img">
+                                <img src="img/Service & Facilities.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="gallery_grid_item1">
+                            <div class="img">
+                                <img src="img/Conferences & Meetings.png" alt="img">
+                            </div>
+                        </div>
+                        <div class="gallery_grid_item1">
+                            <div class="img">
+                                <img src="img/Wedding Package.png" alt="img">
+                            </div>
+                        </div>
+                        
+                        
+                   </div>
+            </div>
+        </section>
+    <!-- ===========gallery end========= -->
+
+    <!-- =======offer start======= -->
+     <section id="offer">
+        <div class="container">
+            <div class="offer_content">
+                <div class="offer_content_header">
+                    <div class="offer_content_header_text">
+                        <h4>Special Offers</h4>
+                        <h2>Best offer of the month</h2>
+                        <p>Experience Fantastic Benefits and Obtain Better Rates When You <br> Make a Direct Booking on Our Official Website</p>
+                    </div>
+                    <div class="offer_content_header_btn">
+                        <button>View All</button>
+                    </div>
+                </div>
+                <div class="offer_content_cards">
+                    <div class="offer_content_card">
+                        <div class="offer_content_card_img">
+                            <img src="img/Rectangle 13.png" alt="img">
+                        </div>
+                        <div class="offer_content_card_text">
+                            <h5>Room</h5>
+                        </div>
+                        <div class="offer_content_card_title">
+                            <h3>HoneyMoon</h3>
+                            <img src="img/offer_person.png" alt="img">
+                        </div>
+                        <div class="offer_content_card_para">
+                            <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                        </div>
+                        <div class="offer_content_card_price">
+                            <p><span>$699</span>/night</p>
+                        </div>
+                    </div>
+                    <div class="offer_content_card">
+                        <div class="offer_content_card_img">
+                            <img src="img/Rectangle 13 (1).png" alt="img">
+                        </div>
+                        <div class="offer_content_card_text">
+                            <h5>Meetings</h5>
+                        </div>
+                        <div class="offer_content_card_title">
+                            <h3>Meetings</h3>
+                            <img src="img/offer_person.png" alt="img">
+                        </div>
+                        <div class="offer_content_card_para">
+                            <p>Experience an Exclusively Private Environment to Boost Your Productivity</p>
+                        </div>
+                        <div class="offer_content_card_price">
+                            <p><span>$999</span>/night</p>
+                        </div>
+                    </div>
+                    <div class="offer_content_card">
+                        <div class="offer_content_card_img">
+                            <img src="img/Rectangle 13 (3).png" alt="img">
+                        </div>
+                        <div class="offer_content_card_text">
+                            <h5>Daining</h5>
+                        </div>
+                        <div class="offer_content_card_title">
+                            <h3>Romantic Dining</h3>
+                            <img src="img/offer_person.png" alt="img">
+                        </div>
+                        <div class="offer_content_card_para">
+                            <p>Indulge in a Memorable One-Time Romantic Dinner for Two</p>
+                        </div>
+                        <div class="offer_content_card_price">
+                            <p><span>$499</span>/table</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!-- =======offer end======= -->
+
+
+    <!-- ===========footer start========= -->
+     <footer id="footer">
+        <div class="container">
+            <div class="footer_content">
+                <div class="footer_content_left">
+                    <div class="footer_content_left_text">
+                        <h2>Newsletter & Special Promo</h2>
+                    </div>
+                    <div class="footer_content_left_subs_ctn">
+                        <div class="footer_content_left_subs_ctn_input">
+                          <input type="text" placeholder="Enter your email address">
+                          <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_content_right">
+                    <div class="footer_content_right_logo">
+                        <img src="img/Logo.png" alt="img">
+                    </div>
+                    <div class="footer_content_right_links">
+                        <div class="footer_content_right_link">
+                            <ul>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Location</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_content_right_link">
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">Term of Use</a></li>
+                                <li><a href="#">Privacy Police</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_content_right_link">
+                            <ul>
+                                <li><a href="#">Services & Facilities</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">How to book</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_content_para">
+                <p>© Copyright Booking Hotels. All right reserved.</p>
+            </div>
+        </div>
+     </footer>
+    <!-- ===========footer end========= -->
+
+
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'flex';
+        }
+        function closeSidebar() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
